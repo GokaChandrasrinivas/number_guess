@@ -40,6 +40,7 @@ document.getElementById("submit").onclick= function () {
 document.getElementById("reset").onclick= function (){
 		chances=5;
 		document.getElementById("result").textContent="";
+		document.getElementById("hint").textContent="";
 		document.getElementById("chance").textContent="Chances left : "+chances;
 		number = Math.floor(((Math.random()*50)+1));
 }
